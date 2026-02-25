@@ -7,15 +7,28 @@
     height: 200px;
     border: 5px solid;
     border-color: blue;
+    color: black;
 }
 
+.links {
+    display: flex;
+    border: 15px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: cyan;
+    color: black;
+}
 body {
     width: 100%;
-    height: 200px;
     font-size: 15pt;
     font-family: comic sans-serif;
     text-align: center;
     background-color:lightgray ;
+    font-size: 15pt;
+    color: indigo;
+
 }
 
 imagens {
@@ -24,17 +37,64 @@ imagens {
 }
 
 
-h1 {
+h2 {
     text-align: center;
-}
-table  {
-    display: flexbox;
-    border-style: dashed; 
-    color: red;
-    justify-content: space-between;
-    align-items: center;
-
-}
-body a:hover{
     color: black;
 }
+table {
+    display: flexbox;
+    border-style: dashed; 
+    border-color: darkred;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+th td {
+    width: 20px;
+    height: 10px;
+    border: 1px solid;
+    border-color: red;
+
+}
+
+
+
+.contatos a:hover{
+    color: black;
+    width: 300px;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consulta {
+    color: black;
+    width: 590px;
+    height:120px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque ;
+    width: 100%;
+    height: 200px;
+    border: 5px ;
+   
+    font-size: 15pt;
+    font-family: comic sans-serif;
+}
+
