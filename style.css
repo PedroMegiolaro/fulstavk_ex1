@@ -31,50 +31,61 @@ body {
 
 }
 
-imagens {
-    border: 5px;
+.imagens {
     align-items: center;
-}
 
+
+
+}
+ .iframes {
+    width: 100%;
+    display: flex-box;
+    justify-content:space-around;
+    align-items: center;
+ }
 
 h2 {
     text-align: center;
     color: black;
 }
 table {
-    display: flexbox;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
     border-style: dashed; 
-    border-color: darkred;
-    justify-content: space-between;
+    border-color: darkred; 
+    /* justify-content: space-between; */
     align-items: center;
     color: black;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
+
 }
-th td {
-    width: 20px;
+th,td,tr {
+    width: 10px;
     height: 10px;
     border: 1px solid;
     border-color: red;
-
+    border-style: solid;
 }
 
 
 
 .contatos a:hover{
     color: black;
-    width: 300px;
+    width: 400px;
     height:150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .consulta {
+    margin-left: auto;
+    margin-right: auto;
     color: black;
     width: 590px;
     height:120px;
-    display: flexbox;
     justify-content: space-between;
     align-items: center;
     background-color: yellow;
